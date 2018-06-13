@@ -10,7 +10,8 @@ You can check by typing "git branch"
 
 Then, get the latest code by running "git pull"
 
-When you decide to work on something, please create your own branch by typing "git checkout -b <yourname>_chapter3_question3"
+When you decide to work on something, please create your own branch by typing 
+"git checkout -b yourname_chapter3_question3"
 
 Then, you can bring your change by using "git add ."
 
