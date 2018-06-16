@@ -1,3 +1,5 @@
+//Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column is set to 0
+
 var input=[1,2,3,4,0,6,7,8,9];
 var matrix = [];
 for(var i=0; i<3; i++) {
