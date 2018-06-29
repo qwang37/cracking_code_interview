@@ -1,3 +1,5 @@
+/* One Away: Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.*/
+
 var input=[1,2,3,4,0,6,7,8,9];
 var matrix = [];
 for(var i=0; i<3; i++) {
@@ -14,7 +16,7 @@ arr.push(1);
 console.log(arr|arr.push(1));
 */
 
-function M_0(a){
+function Zero(a){
     for(var i = 0; i < a.length; i++){
         for(var j = 0; j < a[0].length; j++) {
             if (a[i][j] === 0) {

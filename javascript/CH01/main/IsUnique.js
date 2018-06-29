@@ -1,3 +1,6 @@
+/* Is Unique: Implement an algorithm to determine if a string 
+has all unique characters. What if you cannot use additional data structures?*/
+
 function unique(str){
   return [...new Set(str.split(""))].join("") === str.split("").join("");//ES2015
 }
@@ -12,7 +15,7 @@ console.log(unique("hapy"));
       }
   }
   return newArr.join("") === str;
-//CH01_1_LH(1.0)
+
 
 }
 console.log(Unique("abca"));
