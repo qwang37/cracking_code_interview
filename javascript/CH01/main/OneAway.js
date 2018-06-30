@@ -5,7 +5,7 @@ write a function to check if they are one edit (or zero edits) away.
 EXAMPLE
 pale, ple -) true pales, pale - ) true pale, bale -) true pale, bae -) false*/
 
-function OneAway(str1,str2){
+module.exports = function OneAway(str1,str2){
     if(str1 === str2 || Math.abs(str1.length-str2.length) > 1){//字符串相等或是长度悬殊
         return false;
     }

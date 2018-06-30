@@ -16,7 +16,7 @@ arr.push(1);
 console.log(arr|arr.push(1));
 */
 
-function Zero(a){
+module.exports = function Zero(a){
     for(var i = 0; i < a.length; i++){
         for(var j = 0; j < a[0].length; j++) {
             if (a[i][j] === 0) {

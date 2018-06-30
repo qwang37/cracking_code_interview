@@ -3,7 +3,7 @@ SOLUTION
 EXAMPLE
 Input: "Mr John Smith JJ, 13 Output: "Mr%2eJohn%2eSmith"*/
 
-function URLify(str){
+module.exports = function URLify(str){
    return str.split(" ").join("2e%");
 }
 console.log(URLify("I am good."))

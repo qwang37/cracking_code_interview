@@ -5,7 +5,7 @@ your method should return the original string.
 You can assume the string has only uppercase and lowercase letters (a - z). */
 
 
-function Compression(str){
+module.exports = function Compression(str){
    var newStr = "";
    var count = 0;
    for(var i = 0; i < str.length; i++){
