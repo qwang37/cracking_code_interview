@@ -1,6 +1,8 @@
 Practice this book:
 
 https://inspirit.net.in/books/placements/Cracking%20the%20Coding%20Interview.pdf
+6th edition version
+https://github.com/alexitaylor/Cracking-the-Coding-Interview-6th-Edition/blob/master/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf
 
 Branching strategy:
 

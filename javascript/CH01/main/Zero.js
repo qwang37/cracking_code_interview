@@ -1,22 +1,9 @@
-//Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column is set to 0
+/* One Away: Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.*/
 
-var input=[1,2,3,4,0,6,7,8,9];
-var matrix = [];
-for(var i=0; i<3; i++) {
-    matrix[i] = [];
-    for(var j=0; j<3; j++) {
-        matrix[i][j] = input[i*3+j];
-    }
-}
 
-var arr1 = [];
-var arr2 = [];
-/*
-arr.push(1);
-console.log(arr|arr.push(1));
-*/
-
-function M_0(a){
+module.exports = function Zero(a){
+    let arr1 = [];
+    let arr2 = [];
     for(var i = 0; i < a.length; i++){
         for(var j = 0; j < a[0].length; j++) {
             if (a[i][j] === 0) {
@@ -39,5 +26,5 @@ function M_0(a){
 }
 
 
-console.log(M_0(matrix));
+
 

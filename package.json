@@ -1,0 +1,29 @@
+{
+  "name": "cracking_code_interview",
+  "version": "1.0.0",
+  "description": "again",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-register": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "es-checker": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwang37/cracking_code_interview.git"
+  },
+  "author": "LH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qwang37/cracking_code_interview/issues"
+  },
+  "homepage": "https://github.com/qwang37/cracking_code_interview#readme"
+}
