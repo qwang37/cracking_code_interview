@@ -42,4 +42,3 @@ module.exports = function OneAway(str1,str2){
 
     }
 }
-console.log(oneway("sd","asd"));

@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/javascript/CH01/main/Permutation.js"
+            "program": "${workspaceFolder}/javascript/CH01/main/URLify.js"
         }
     ]
 }

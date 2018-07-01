@@ -21,7 +21,5 @@ module.exports = function Compression(str){
     else{
        return str;
     }
-
 }
 
-console.log(compress("aabccdd"));
